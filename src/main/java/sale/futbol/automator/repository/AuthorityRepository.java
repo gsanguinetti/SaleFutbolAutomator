@@ -1,0 +1,11 @@
+package sale.futbol.automator.repository;
+
+import sale.futbol.automator.domain.Authority;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+/**
+ * Spring Data JPA repository for the Authority entity.
+ */
+public interface AuthorityRepository extends JpaRepository<Authority, String> {
+}
